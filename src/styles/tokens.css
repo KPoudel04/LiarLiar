@@ -1,0 +1,19 @@
+:root {
+  --notebook-bg: #fdf9ee;
+  --notebook-line: #e8dfc8;
+  --notebook-margin: #d4a5b0;
+
+  --paper: #fffffe;
+  --paper-warm: #fffffb;
+  --border: #d9d0bd;
+  --border-light: #e6dece;
+
+  --text: #1d1b16;
+  --text-muted: #696358;
+  --blue: #4a6b8a;
+  --green: #4a7556;
+  --red: #a8543f;
+
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-hover: 0 3px 8px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.08);
+}

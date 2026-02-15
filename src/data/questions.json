@@ -1,0 +1,781 @@
+[
+  {
+    "title": "Astronomy",
+    "theme": "Deep space details",
+    "facts": [
+      "Neutrinos can pass through most matter without interacting.",
+      "A light-year measures distance, not time.",
+      "The Andromeda Galaxy is on a collision course with the Milky Way.",
+      "Event horizons can emit Hawking radiation in measurable amounts today.",
+      "Most atoms in your body are billions of years old."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Neuroscience",
+    "theme": "Brain myths",
+    "facts": [
+      "Different brain regions specialize in different functions.",
+      "Neuroplasticity allows the brain to change throughout life.",
+      "The brain consumes roughly 20% of the body's energy at rest.",
+      "Humans only use 10% of their brain.",
+      "Memories are reconstructed rather than perfectly replayed."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Economics",
+    "theme": "Market mechanics",
+    "facts": [
+      "Inflation can occur even when demand is weak if supply drops.",
+      "Price controls can cause shortages.",
+      "GDP includes government spending.",
+      "Raising interest rates always immediately reduces inflation.",
+      "Opportunity cost includes the value of the next best alternative."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Chemistry",
+    "theme": "Molecular behavior",
+    "facts": [
+      "Enzymes lower activation energy for reactions.",
+      "Isotopes of an element have different numbers of neutrons.",
+      "pH is a logarithmic scale.",
+      "Covalent bonds involve sharing electrons.",
+      "All acids are corrosive to human skin."
+    ],
+    "falseIndex": 4
+  },
+  {
+    "title": "Physics",
+    "theme": "Counterintuitive laws",
+    "facts": [
+      "Time dilation occurs at high velocities.",
+      "Quantum tunneling allows particles to pass through energy barriers.",
+      "Absolute zero is theoretically unattainable.",
+      "Heavier objects fall faster than lighter ones in a vacuum.",
+      "Entropy tends to increase in closed systems."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Biology",
+    "theme": "Evolution nuances",
+    "facts": [
+      "Evolution acts on populations, not individuals.",
+      "Genetic drift can change allele frequencies randomly.",
+      "Natural selection always leads to more complex organisms.",
+      "Mutations can be neutral, harmful, or beneficial.",
+      "Convergent evolution produces similar traits in unrelated species."
+    ],
+    "falseIndex": 2
+  },
+  {
+    "title": "History",
+    "theme": "Subtle timelines",
+    "facts": [
+      "The Aztec Empire still existed when Columbus reached the Americas.",
+      "The last Roman emperor in the West ruled in the 5th century.",
+      "Oxford University predates the Aztec Empire.",
+      "Samurai and knights coexisted historically.",
+      "The printing press spread literacy instantly across Europe."
+    ],
+    "falseIndex": 4
+  },
+  {
+    "title": "Mathematics",
+    "theme": "Tricky truths",
+    "facts": [
+      "There are infinitely many prime numbers.",
+      "0.999... is equal to 1.",
+      "The square root of 2 is irrational.",
+      "All infinite sets are the same size.",
+      "Some infinities are larger than others."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Computer Science",
+    "theme": "Theory vs practice",
+    "facts": [
+      "The halting problem is undecidable in general.",
+      "Big-O notation describes asymptotic growth rates.",
+      "P = NP has been proven false.",
+      "Hash collisions are possible in hash tables.",
+      "Deterministic algorithms always produce the same output for the same input."
+    ],
+    "falseIndex": 2
+  },
+  {
+    "title": "Medicine",
+    "theme": "Clinical nuance",
+    "facts": [
+      "Antibiotic resistance can develop through natural selection.",
+      "Vaccines can reduce disease transmission even if not 100% effective.",
+      "Fever can help inhibit pathogen growth.",
+      "Antibiotics are effective against viruses in early stages.",
+      "Placebos can produce measurable physiological effects."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Geology",
+    "theme": "Earth processes",
+    "facts": [
+      "The Earth's mantle behaves like a solid over short timescales.",
+      "Continental drift occurs due to plate tectonics.",
+      "Volcanoes only occur at plate boundaries.",
+      "Sedimentary rocks can contain fossils.",
+      "The Earth's magnetic field flips polarity over geological time."
+    ],
+    "falseIndex": 2
+  },
+  {
+    "title": "Linguistics",
+    "theme": "Language structure",
+    "facts": [
+      "Some languages lack a future tense.",
+      "All languages have nouns and verbs.",
+      "Languages can lose grammatical complexity over time.",
+      "Children can acquire multiple native languages fluently.",
+      "Writing systems are not required for a language to exist."
+    ],
+    "falseIndex": 1
+  },
+  {
+    "title": "Climate Science",
+    "theme": "Climate mechanisms",
+    "facts": [
+      "Carbon dioxide is a greenhouse gas.",
+      "Water vapor amplifies warming as a feedback, not a primary forcing.",
+      "The greenhouse effect makes Earth warmer than it would otherwise be.",
+      "Short-term weather trends disprove long-term climate change.",
+      "Volcanic eruptions can temporarily cool the planet."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Philosophy",
+    "theme": "Mind and reality",
+    "facts": [
+      "Descartes argued for doubt as a method of inquiry.",
+      "Utilitarianism focuses on outcomes.",
+      "The trolley problem explores moral tradeoffs.",
+      "Plato believed knowledge comes only from sensory experience.",
+      "Existentialism emphasizes individual meaning-making."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Finance",
+    "theme": "Investing nuance",
+    "facts": [
+      "Diversification can reduce unsystematic risk.",
+      "Past performance guarantees future returns.",
+      "Index funds track a basket of assets.",
+      "Market volatility reflects uncertainty.",
+      "Long-term investing can smooth short-term fluctuations."
+    ],
+    "falseIndex": 1
+  },
+  {
+    "title": "Sociology",
+    "theme": "Social systems",
+    "facts": [
+      "Social norms vary across cultures.",
+      "Institutions shape individual behavior.",
+      "Correlation does not imply causation.",
+      "Social mobility is identical across all societies.",
+      "Power structures influence resource distribution."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Ecology",
+    "theme": "Ecosystem dynamics",
+    "facts": [
+      "Keystone species have disproportionate effects on ecosystems.",
+      "Energy flows through trophic levels with losses at each step.",
+      "All ecosystems are stable and self-correcting.",
+      "Biodiversity can increase ecosystem resilience.",
+      "Human activity can cause trophic cascades."
+    ],
+    "falseIndex": 2
+  },
+  {
+    "title": "Statistics",
+    "theme": "Data reasoning",
+    "facts": [
+      "Correlation does not imply causation.",
+      "Larger samples tend to reduce random error.",
+      "P-values measure the probability a hypothesis is true.",
+      "Randomized trials help reduce confounding.",
+      "Outliers can skew averages."
+    ],
+    "falseIndex": 2
+  },
+  {
+    "title": "Ethics",
+    "theme": "Moral reasoning",
+    "facts": [
+      "Moral relativism holds that morality depends on cultural context.",
+      "Deontological ethics focuses on duties.",
+      "Virtue ethics emphasizes character traits.",
+      "All ethical theories reach the same conclusions in practice.",
+      "Ethical dilemmas often involve competing values."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "AI",
+    "theme": "Machine learning realities",
+    "facts": [
+      "Neural networks are inspired by biological neurons but are simplified models.",
+      "Overfitting occurs when a model memorizes training data.",
+      "Larger models always generalize better to new data.",
+      "Training data quality affects model performance.",
+      "Models can encode biases present in data."
+    ],
+    "falseIndex": 2
+  },
+  {
+    "title": "Planets",
+    "theme": "Solar system facts",
+    "facts": [
+      "Mercury has no natural moons.",
+      "Venus rotates opposite to most planets.",
+      "Mars has the largest volcano in the solar system.",
+      "Jupiter is the smallest gas giant.",
+      "Neptune was discovered using mathematical prediction."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Famous Paintings",
+    "theme": "Masterpiece trivia",
+    "facts": [
+      "The Mona Lisa hangs in the Louvre.",
+      "The Starry Night was painted by Vincent van Gogh.",
+      "Guernica is by Pablo Picasso.",
+      "The Scream was painted by Claude Monet.",
+      "Girl with a Pearl Earring is by Johannes Vermeer."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Programming Languages",
+    "theme": "History and design",
+    "facts": [
+      "JavaScript was created in 10 days.",
+      "Python is named after Monty Python.",
+      "Rust was originally sponsored by Mozilla.",
+      "Go uses classes and inheritance as its core model.",
+      "TypeScript is a superset of JavaScript."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Animals",
+    "theme": "Wild biology",
+    "facts": [
+      "Octopuses have three hearts.",
+      "A group of flamingos is called a flamboyance.",
+      "Bats are blind in complete darkness.",
+      "Koalas sleep for most of the day.",
+      "Cheetahs cannot roar."
+    ],
+    "falseIndex": 2
+  },
+  {
+    "title": "World Cities",
+    "theme": "Geography snapshots",
+    "facts": [
+      "Tokyo is the capital of Japan.",
+      "Istanbul spans two continents.",
+      "Canberra is Australia's capital city.",
+      "Rio de Janeiro is the capital of Brazil.",
+      "Cairo sits on the Nile River."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Movies",
+    "theme": "Classic and modern cinema",
+    "facts": [
+      "The Godfather released in 1972.",
+      "Parasite won Best Picture at the Oscars.",
+      "Inception was directed by Christopher Nolan.",
+      "The Matrix premiered in 2005.",
+      "Spirited Away is by Studio Ghibli."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Food Science",
+    "theme": "Kitchen chemistry",
+    "facts": [
+      "Salt can raise boiling point of water slightly.",
+      "Sourdough uses wild yeast and bacteria.",
+      "Honey never crystallizes.",
+      "Acid can denature proteins in ceviche.",
+      "Browning from the Maillard reaction needs heat."
+    ],
+    "falseIndex": 2
+  },
+  {
+    "title": "Sports",
+    "theme": "Rules and records",
+    "facts": [
+      "A basketball game has four quarters in the NBA.",
+      "A tennis Grand Slam means winning all four majors in one year.",
+      "Soccer has unlimited substitutions in all competitions.",
+      "The Olympics are held every four years.",
+      "A baseball inning has two halves."
+    ],
+    "falseIndex": 2
+  },
+  {
+    "title": "Human Body",
+    "theme": "Basic anatomy",
+    "facts": [
+      "Adults typically have 206 bones.",
+      "The skin is the largest human organ.",
+      "The heart has four chambers.",
+      "Humans have four lungs.",
+      "Red blood cells carry oxygen."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "World History",
+    "theme": "Major events",
+    "facts": [
+      "The Roman Empire came before the Byzantine Empire.",
+      "World War I started in 1914.",
+      "The printing press is associated with Johannes Gutenberg.",
+      "The Great Wall of China is clearly visible from the Moon with the naked eye.",
+      "The Berlin Wall fell in 1989."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Classical Music",
+    "theme": "Composers and works",
+    "facts": [
+      "Mozart was a child prodigy.",
+      "Beethoven wrote nine numbered symphonies.",
+      "Bach was a Baroque composer.",
+      "Beethoven was born in Vienna.",
+      "Tchaikovsky composed Swan Lake."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Literature",
+    "theme": "Books and authors",
+    "facts": [
+      "George Orwell wrote Animal Farm.",
+      "Jane Austen wrote Pride and Prejudice.",
+      "1984 was written by Aldous Huxley.",
+      "The Hobbit was written by J.R.R. Tolkien.",
+      "Moby-Dick was written by Herman Melville."
+    ],
+    "falseIndex": 2
+  },
+  {
+    "title": "Oceans",
+    "theme": "Marine geography",
+    "facts": [
+      "The Pacific is the largest ocean.",
+      "The Atlantic is the deepest ocean.",
+      "The Arctic Ocean is the smallest.",
+      "The Indian Ocean lies south of Asia.",
+      "The Southern Ocean surrounds Antarctica."
+    ],
+    "falseIndex": 1
+  },
+  {
+    "title": "Inventions",
+    "theme": "Technology milestones",
+    "facts": [
+      "The World Wide Web was proposed by Tim Berners-Lee.",
+      "The telephone is associated with Alexander Graham Bell.",
+      "The light bulb was invented solely by Nikola Tesla.",
+      "The printing press predates the steam engine.",
+      "The airplane is associated with the Wright brothers."
+    ],
+    "falseIndex": 2
+  },
+  {
+    "title": "Space Missions",
+    "theme": "Exploration highlights",
+    "facts": [
+      "Apollo 11 landed humans on the Moon.",
+      "Voyager 1 has traveled beyond the heliosphere.",
+      "The Hubble Space Telescope was launched in 1990.",
+      "Apollo 13 successfully landed on the Moon.",
+      "Mars rovers have operated on Mars."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Weather",
+    "theme": "Climate and atmosphere",
+    "facts": [
+      "Lightning can heat air to very high temperatures.",
+      "Hurricanes rotate differently across hemispheres.",
+      "Tornadoes only occur in North America.",
+      "A blizzard is defined by wind and visibility criteria.",
+      "Fog is a cloud near ground level."
+    ],
+    "falseIndex": 2
+  },
+  {
+    "title": "Mathematics",
+    "theme": "Core concepts",
+    "facts": [
+      "Pi is an irrational number.",
+      "A right angle measures 90 degrees.",
+      "Prime numbers include 1.",
+      "The sum of angles in a triangle is 180 degrees in Euclidean geometry.",
+      "Zero is an even number."
+    ],
+    "falseIndex": 2
+  },
+  {
+    "title": "Internet Basics",
+    "theme": "Web fundamentals",
+    "facts": [
+      "HTTP stands for HyperText Transfer Protocol.",
+      "A URL identifies a resource location.",
+      "The first publicly available website went live in 1991.",
+      "DNS translates domain names to IP addresses.",
+      "HTTPS adds encryption through TLS."
+    ],
+    "falseIndex": 2
+  },
+  {
+    "title": "Architecture",
+    "theme": "Landmarks and structures",
+    "facts": [
+      "The Eiffel Tower is in Paris.",
+      "The Colosseum is in Rome.",
+      "The Taj Mahal is in Agra.",
+      "The Sydney Opera House is in Melbourne.",
+      "The Burj Khalifa is in Dubai."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Transportation",
+    "theme": "Travel systems",
+    "facts": [
+      "Maglev trains use magnetic levitation.",
+      "Bicycles are human-powered vehicles.",
+      "Concorde is still in commercial passenger service.",
+      "Subways are urban rail transit systems.",
+      "Cargo ships move most global trade by volume."
+    ],
+    "falseIndex": 2
+  },
+  {
+    "title": "Languages",
+    "theme": "Linguistics",
+    "facts": [
+      "Mandarin Chinese uses logographic characters.",
+      "Spanish uses the Latin alphabet.",
+      "Arabic is written right-to-left.",
+      "Mandarin Chinese uses an alphabet as its core writing system.",
+      "English has Germanic roots."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Biology",
+    "theme": "Cell and genetics",
+    "facts": [
+      "DNA carries genetic information.",
+      "Cells are the basic unit of life.",
+      "Mitochondria generate much of a cell's ATP.",
+      "DNA is shaped like a square ladder.",
+      "Proteins are built from amino acids."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Geography",
+    "theme": "Countries and landmarks",
+    "facts": [
+      "Mount Everest is in the Himalayas.",
+      "The Nile is one of the world's longest rivers.",
+      "Mount Kilimanjaro is in Kenya.",
+      "The Amazon rainforest is in South America.",
+      "Sahara is a desert in Africa."
+    ],
+    "falseIndex": 2
+  },
+  {
+    "title": "Computers",
+    "theme": "Hardware basics",
+    "facts": [
+      "RAM is volatile memory.",
+      "SSDs have no moving parts.",
+      "CPUs execute program instructions.",
+      "RAM keeps data when the power is off.",
+      "A GPU is specialized for parallel processing."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Art Movements",
+    "theme": "Styles in art history",
+    "facts": [
+      "Impressionism emerged in 19th-century France.",
+      "Cubism is associated with Picasso and Braque.",
+      "Surrealism includes dream-like imagery.",
+      "Impressionism first emerged in Italy.",
+      "Renaissance art predates Baroque art."
+    ],
+    "falseIndex": 3
+  },{
+    "title": "Space",
+    "theme": "Astronomy basics",
+    "facts": [
+      "The Sun is a star.",
+      "Saturn has visible rings.",
+      "Venus is hotter than Mercury.",
+      "The Moon has its own atmosphere like Earth.",
+      "Light from the Sun takes about 8 minutes to reach Earth."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Programming",
+    "theme": "Dev trivia",
+    "facts": [
+      "C was developed before Java.",
+      "Python emphasizes readability.",
+      "Java runs on a virtual machine.",
+      "HTML is a programming language.",
+      "Git is a version control system."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Animals",
+    "theme": "Biology facts",
+    "facts": [
+      "Dolphins are mammals.",
+      "Sharks are fish.",
+      "Owls can rotate their heads up to 270 degrees.",
+      "Penguins can fly short distances.",
+      "Elephants have strong social bonds."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Geography",
+    "theme": "World facts",
+    "facts": [
+      "Africa has the most countries of any continent.",
+      "Russia is the largest country by land area.",
+      "The Amazon River flows through Brazil.",
+      "Greenland is a continent.",
+      "Mount Everest is the tallest mountain above sea level."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "History",
+    "theme": "Ancient civilizations",
+    "facts": [
+      "The pyramids of Giza are in Egypt.",
+      "The Roman Empire fell in 476 AD in the West.",
+      "Cleopatra lived closer to the Moon landing than the building of the pyramids.",
+      "The Colosseum is in Athens.",
+      "The Silk Road connected East and West."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Food",
+    "theme": "Everyday food facts",
+    "facts": [
+      "Tomatoes are botanically fruits.",
+      "Cheese is made from milk.",
+      "Chili peppers get heat from capsaicin.",
+      "Chocolate grows on trees.",
+      "Carrots were originally purple."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Music",
+    "theme": "Pop culture",
+    "facts": [
+      "The Beatles were a British band.",
+      "Taylor Swift started in country music.",
+      "Mozart composed classical music.",
+      "Elvis Presley was born in Canada.",
+      "Vinyl records have made a comeback."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Movies",
+    "theme": "Film history",
+    "facts": [
+      "Jurassic Park was released in 1993.",
+      "The first Star Wars film came out in 1977.",
+      "The Titanic movie won Best Picture.",
+      "Avatar was directed by Steven Spielberg.",
+      "The Lord of the Rings films were shot in New Zealand."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Sports",
+    "theme": "General sports",
+    "facts": [
+      "Soccer is played with 11 players per side.",
+      "Basketball was invented in the United States.",
+      "The Olympics originated in Greece.",
+      "Baseball games always end in a tie.",
+      "Tennis is played on different surfaces."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Technology",
+    "theme": "Modern tech",
+    "facts": [
+      "Bluetooth is named after a Viking king.",
+      "The first iPhone launched in 2007.",
+      "Cloud computing means data stored remotely.",
+      "Wi-Fi requires physical cables between devices.",
+      "Touchscreens respond to electrical signals."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Biology",
+    "theme": "Human body",
+    "facts": [
+      "The liver can regenerate itself.",
+      "Humans share most of their DNA with chimpanzees.",
+      "The heart pumps blood through the body.",
+      "The brain uses no energy.",
+      "The lungs exchange oxygen and carbon dioxide."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Chemistry",
+    "theme": "Elements",
+    "facts": [
+      "Hydrogen is the lightest element.",
+      "Iron is used to make steel.",
+      "Oxygen is required for fire.",
+      "Gold rusts easily.",
+      "Carbon is the basis of organic life."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Mythology",
+    "theme": "Greek myths",
+    "facts": [
+      "Zeus ruled Mount Olympus.",
+      "Hades ruled the underworld.",
+      "Athena sprang from Zeus's head.",
+      "Hercules was a Greek god.",
+      "Poseidon was god of the sea."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Economics",
+    "theme": "Money basics",
+    "facts": [
+      "Inflation reduces purchasing power.",
+      "Taxes fund public services.",
+      "Supply and demand affect prices.",
+      "Printing unlimited money has no downsides.",
+      "Interest rates affect loans."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Psychology",
+    "theme": "Mind facts",
+    "facts": [
+      "Sleep affects memory.",
+      "Stress can impact health.",
+      "Habits are hard to break.",
+      "The brain stops changing after childhood.",
+      "Emotions influence decisions."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Art",
+    "theme": "Art history",
+    "facts": [
+      "The Renaissance began in Italy.",
+      "Impressionism emphasized light and color.",
+      "Van Gogh cut off part of his ear.",
+      "The Louvre is in Berlin.",
+      "Sculpture is a form of visual art."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Architecture",
+    "theme": "Famous buildings",
+    "facts": [
+      "The Great Wall is in China.",
+      "The Colosseum is in Rome.",
+      "The Taj Mahal is in India.",
+      "Machu Picchu is in Brazil.",
+      "The Burj Khalifa is in Dubai."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Weather",
+    "theme": "Atmospheric facts",
+    "facts": [
+      "Thunder is caused by rapidly expanding air.",
+      "Hurricanes form over warm ocean water.",
+      "Snow is frozen rain.",
+      "Tornadoes are rotating columns of air.",
+      "Fog is a cloud at ground level."
+    ],
+    "falseIndex": 2
+  },
+  {
+    "title": "Transportation",
+    "theme": "Vehicles",
+    "facts": [
+      "Airplanes fly due to lift.",
+      "Cars use engines to move.",
+      "Trains run on rails.",
+      "Submarines travel only on the surface.",
+      "Bicycles are human-powered."
+    ],
+    "falseIndex": 3
+  },
+  {
+    "title": "Language",
+    "theme": "Linguistics",
+    "facts": [
+      "Many English words come from Latin.",
+      "Some languages use tonal pronunciation.",
+      "Sign languages are full languages.",
+      "All languages use the Latin alphabet.",
+      "Languages evolve over time."
+    ],
+    "falseIndex": 3
+  }
+]

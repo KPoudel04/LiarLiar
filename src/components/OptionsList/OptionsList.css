@@ -1,0 +1,108 @@
+.options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option-item {
+  width: 100%;
+  padding: 16px 18px;
+  background: var(--paper);
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: var(--shadow);
+  color: var(--text);
+  line-height: 1.45;
+  font-family: inherit;
+  position: relative;
+}
+
+.option-item::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  background: repeating-linear-gradient(
+    -30deg,
+    transparent,
+    transparent 14px,
+    rgba(0, 0, 0, 0.006) 14px,
+    rgba(0, 0, 0, 0.006) 28px
+  );
+  pointer-events: none;
+}
+
+.option-item:hover:not(:disabled) {
+  border-color: var(--blue);
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-1px);
+}
+
+.option-item:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.option-item:disabled {
+  cursor: default;
+}
+
+.option-item.picked {
+  border-color: var(--text);
+  border-width: 2px;
+  padding: 15.5px 17.5px;
+}
+
+.option-item.correct {
+  background: #f5faf6;
+  border-color: var(--green);
+  border-width: 2px;
+  padding: 15.5px 17.5px;
+  color: #2d5e3e;
+  font-weight: 600;
+}
+
+.option-item.correct::before {
+  background: repeating-linear-gradient(
+    -30deg,
+    transparent,
+    transparent 14px,
+    rgba(74, 117, 86, 0.03) 14px,
+    rgba(74, 117, 86, 0.03) 28px
+  );
+}
+
+.option-item.wrong {
+  background: #fef7f6;
+  border-color: var(--red);
+  border-width: 2px;
+  padding: 15.5px 17.5px;
+  color: #7a3d2f;
+}
+
+.option-item.wrong::before {
+  background: repeating-linear-gradient(
+    -30deg,
+    transparent,
+    transparent 14px,
+    rgba(168, 84, 63, 0.03) 14px,
+    rgba(168, 84, 63, 0.03) 28px
+  );
+}
+
+@media (min-width: 640px) {
+  .option-item {
+    padding: 18px 20px;
+    font-size: 16px;
+  }
+
+  .option-item.picked,
+  .option-item.correct,
+  .option-item.wrong {
+    padding: 17.5px 19.5px;
+  }
+}
